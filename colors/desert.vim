@@ -1,7 +1,7 @@
 " Vim color file
 " Maintainer:   Hans Fugal <hans@fugal.net>
-" Last Change:  9 Jul 2002
-" URL:		http://fugal.net/vim/colors/desert.vim 
+" Last Change:  $Date: 2003/06/02 19:28:15 $
+" URL:		http://hans.fugal.net/vim/colors/desert.vim 
 
 " cool help screens
 " :he group-name
@@ -31,7 +31,7 @@ hi Cursor	guibg=khaki guifg=slategrey
 "hi DiffText	
 "hi ErrorMsg	
 hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
-hi Folded	guibg=grey30 guifg=gold
+hi Folded	guibg=grey30 guifg=gold 
 hi FoldColumn	guibg=grey30 guifg=tan
 hi IncSearch	guifg=slategrey guibg=khaki
 "hi LineNr				
@@ -61,7 +61,7 @@ hi PreProc	 guifg=indianred
 hi Type		 guifg=darkkhaki
 hi Special	 guifg=navajowhite
 "hi Underlined	
-hi Ignore	 guifg=grey40
+hi Ignore 	 guifg=grey40
 "hi Error			
 hi Todo		 guifg=orangered guibg=yellow2
 
@@ -84,8 +84,8 @@ hi Visual        cterm=reverse
 hi VisualNOS     cterm=bold,underline
 hi WarningMsg    ctermfg=1
 hi WildMenu      ctermfg=0 ctermbg=3
-hi Folded        ctermfg=4 ctermbg=7
-hi FoldColumn    ctermfg=4 ctermbg=7
+hi Folded        ctermfg=darkgrey ctermbg=NONE
+hi FoldColumn    ctermfg=darkgrey ctermbg=NONE
 hi DiffAdd       ctermbg=4
 hi DiffChange    ctermbg=5
 hi DiffDelete    cterm=bold ctermfg=4 ctermbg=6
@@ -98,7 +98,7 @@ hi Statement     ctermfg=3
 hi PreProc       ctermfg=5
 hi Type          ctermfg=2
 hi Underlined    cterm=underline ctermfg=5
-hi Ignore        cterm=bold ctermfg=7
+hi Ignore        ctermfg=darkgrey
 hi Error         cterm=bold ctermfg=7 ctermbg=1
 
 
